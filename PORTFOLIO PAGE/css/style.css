@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.navbar {
+    margin: 20px;
+}
+.navbar li {
+    padding: 15px;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: brown;
+}
+.navbar ul {
+    display: flex;
+    justify-content: right;
+}
+.navbar a:hover {
+    color: black;
+}
+.logo img {
+    width: 120px;
+    height: auto;
+    display: block;
+    padding: 10px;
+}
+header .one {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro {
+    padding: 20px;
+    border-style: solid;
+    border: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 300;
+    border-radius: 15px;
+}
+h3, h2 {
+    color: rgb(220, 42, 42);
+    text-align: center;
+    background-color: bisque;
+}
+.movies li {
+    list-style: none;
+}
+.movies a {
+    text-decoration: none;
+    font-weight: 400;
+}
+.movies ol {
+    list-style: none;
+    border-style: solid;
+    border: 2px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.photo img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 15%;
+}
+.photo {
+    border-radius: 10px;
+}
+.goal {
+    list-style: none;
+    border-style: solid;
+    border: 2px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sch {
+    text-align: center;
+    list-style: none;
+}
+.git {
+    display: block;
+    text-align: center;
+}
+.git a {
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}
+.video {
+    display: flexbox;
+    margin: 0;
+    width: 50px;
+}
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.video-items video {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: bisque;
+    margin-top: 20px;
+    padding: 5px;
+}
+.form {
+    text-align: center;
+}
+.two {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: beige;
+    margin: 10px;
+}
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: beige;
+    margin: 10px;
+}
+.btn {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px;
+    color: black;
+    background-color: rgb(174, 124, 124);
+}
+.btn:hover {
+    background-color: rgb(144, 127, 255);
+    color: white;
+}
+address {
+    text-align: center;
+}

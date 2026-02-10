@@ -1,0 +1,91 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.one [type="text"] {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px;
+    border: solid;
+    background-color: rgb(252, 252, 252);
+    border-width: 0.5px;
+    border-color: rgb(219, 209, 209);
+}
+
+.two [type="password"] {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    border: solid;
+    background-color: rgb(252, 252, 252);
+    border-width: 0.5px;
+    border-color: rgb(219, 209, 209);
+}
+.btn-1 {
+    display: block;
+    margin: 0 auto;
+    width: 340px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    font-weight: bold;
+}
+.fgt {
+    display: block;
+    text-align: center;
+}
+.btn-2 {
+    display: block;
+    margin: 0 auto;
+    width: 340px;
+    padding: 15px;
+    border-radius: 30px;
+    border: solid;
+    color: rgb(24, 119, 242);
+    border-color: rgb(24, 119, 242);
+    border-width: 1.5px;
+    background-color: white;
+    font-weight: 600;
+}
+.logo-2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.fgt {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+}
+.lang-container {
+    display: flex;
+    justify-content: center;
+}
+.contact a {
+    text-decoration: none;
+    font-size: 10px;
+    color: grey;
+    font-family: Arial, sans-serif;
+}
+select {
+    padding: 10px;
+    appearance: none;
+    border: none;
+    color: grey;
+}
